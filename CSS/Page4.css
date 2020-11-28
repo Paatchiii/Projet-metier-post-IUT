@@ -1,0 +1,7 @@
+.listAcceuil li{
+    display: inline;
+    margin: 15 px;
+}
+.ListSources{
+    list-style-type: none;
+}
