@@ -5,3 +5,34 @@
 .ListSources{
     list-style-type: none;
 }
+body
+{
+    overflow-x: hidden; 
+}
+.MainTitle{
+    font-size: 4em;
+    color: white;
+}
+.listAcceuil li{
+    display: inline;
+    margin-left: 7em;
+    margin-right: 7em;
+    font-size: 1.5em;
+
+}
+.listAcceuil{
+    text-align: center;
+    margin-top: 25px;
+}
+header{
+    background-color: black;
+    margin: -10px ;
+    margin-top: -2.75em;
+    padding-top: 2em;
+    padding-bottom: 2em ;
+    text-align: center;
+
+}
+#I{
+    font-size: 2em;
+}
