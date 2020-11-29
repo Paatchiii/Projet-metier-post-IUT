@@ -1,4 +1,46 @@
+body {
+    overflow-x: hidden; 
+ }
+.MainTitle{
+    font-size: 4em;
+    color: white;
+}
+header{
+    background-color: black;
+    margin: -10px ;
+    margin-top: -2.75em;
+    padding-top: 2em;
+    padding-bottom: 2em ;
+    text-align: center;
+
+}
 .listAcceuil li{
     display: inline;
-    margin: 15 px;
+    margin-left: 7em;
+    margin-right: 7em;
+    font-size: 1.5em;
+
+}
+.listAcceuil{
+    text-align: center;
+    margin-top: 25px;
+}
+#trait_dessus
+{
+border-top: 1px solid #000;
+width : 700px;
+}
+#I{
+    font-size: 2em;
+}
+p, .listJobs{
+    font-size: 1.2em;
+}
+}
+footer{
+	font-family: Arial;
+	font-size: 0.75em;
+}
+.footer1{
+	border-top:1px solid black;
 }
