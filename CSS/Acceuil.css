@@ -7,13 +7,13 @@ body {
     text-shadow: black 0.1em 0.1em 0.4em;
 }
 header{
-    background-image:url(../content/background-test.png);
+    background-color:#333333;
     background-repeat:no-repeat;
     background-position:bottom;
     margin: -10px ;
     margin-top: -2.75em;
-    padding-top: 2em;
-    padding-bottom: 2em ;
+    padding-top: 1.9em;
+    padding-bottom: 1.9em ;
     text-align: center;
 
 }
@@ -22,15 +22,26 @@ header{
     margin-left: 7em;
     margin-right: 7em;
     font-size: 1.5em;
-
+}
+.listAcceuil li a{
+    color: white;
+    text-decoration: none;
 }
 .listAcceuil{
     text-align: center;
-    margin-top: 25px;
+    margin: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -9px;
+    padding-bottom: -12px;
+    padding-left: 0;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background-color:#333333;
 }
-#trait_dessus
+#trait_dessus, #trait_dessous
 {
-border-top: 1px solid #000;
+border-top: 1px solid white;
 width : 700px;
 }
 #I{
