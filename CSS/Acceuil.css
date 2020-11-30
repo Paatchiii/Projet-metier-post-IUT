@@ -1,5 +1,7 @@
 body {
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    font-family: BodyFont,sans-serif;
+    text-align: center;
  }
 .MainTitle{
     font-size: 4em;
@@ -49,8 +51,12 @@ width : 700px;
 }
 p, .listJobs{
     font-size: 1.2em;
+
 }
 
 .footer1{
 	border-top:1px solid black;
+}
+.listJobs{
+    list-style: None;
 }
