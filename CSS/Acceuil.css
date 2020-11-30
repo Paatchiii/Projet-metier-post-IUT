@@ -3,10 +3,13 @@ body {
  }
 .MainTitle{
     font-size: 4em;
-    color: white;
+    color:white;
+    text-shadow: black 0.1em 0.1em 0.4em;
 }
 header{
-    background-color: black;
+    background-image:url(../content/background-test.png);
+    background-repeat:no-repeat;
+    background-position:bottom;
     margin: -10px ;
     margin-top: -2.75em;
     padding-top: 2em;
