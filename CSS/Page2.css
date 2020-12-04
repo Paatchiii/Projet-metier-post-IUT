@@ -1,0 +1,48 @@
+body {
+    overflow-x: hidden;
+    font-family: BodyFont,sans-serif;
+    text-align: center;
+ }
+.MainTitle{
+    font-size: 4em;
+    color:white;
+    text-shadow: black 0.1em 0.1em 0.4em;
+}
+header{
+    background-color:#333333;
+    background-repeat:no-repeat;
+    background-position:bottom;
+    margin: -10px ;
+    margin-top: -2.75em;
+    padding-top: 1.9em;
+    padding-bottom: 1.9em ;
+    text-align: center;
+
+}
+.listAcceuil li{
+    display: inline;
+    margin-left: 7em;
+    margin-right: 7em;
+    font-size: 1.5em;
+}
+.listAcceuil li a{
+    color: white;
+    text-decoration: none;
+}
+.listAcceuil{
+    text-align: center;
+    margin: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -9px;
+    padding-bottom: -12px;
+    padding-left: 0;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background-color:#333333;
+}
+#trait_dessus, #trait_dessous
+{
+border-top: 1px solid white;
+width : 700px;
+}
