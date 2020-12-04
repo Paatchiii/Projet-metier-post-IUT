@@ -46,3 +46,13 @@ header{
 border-top: 1px solid white;
 width : 700px;
 }
+
+.Entreprise {
+  background-color: whitesmoke;
+  width: 500px;
+
+}
+
+h2 {
+  text-align: left;
+}
