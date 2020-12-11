@@ -54,5 +54,15 @@ width : 700px;
 }
 
 h2 {
-  text-align: left;
+  text-align: center;
+  flex-basis: 100%;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section > div {
+  flex-basis: 25%;
 }
