@@ -1,7 +1,7 @@
 body {
     overflow-x: hidden;
     font-family: BodyFont,sans-serif;
-    text-align: center;
+    /* text-align: center; */
  }
 .MainTitle{
     font-size: 4em;
@@ -41,6 +41,14 @@ header{
     padding-bottom: 20px;
     background-color:#333333;
 }
+
+.repartition > li {
+    margin-bottom: 1em;
+}
+.description {
+    font-size: 0.75em;
+}
+
 #trait_dessus, #trait_dessous
 {
 border-top: 1px solid white;
