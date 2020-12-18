@@ -63,6 +63,27 @@ section {
   flex-wrap: wrap;
 }
 
-section > div {
-  flex-basis: 25%;
+main {
+  display: flex;
+  flex-wrap: wrap;
 }
+
+section > div {
+  flex-basis: 24.60%;
+}
+
+#div2, #div3, #div4 {
+  margin-left: 0.5%;
+}
+
+a {
+  color:black;
+  transition-property: top;
+  transition-duration: 5s;
+}
+
+a:hover {
+  transition-property: top;
+  margin-bottom: 500px;
+}
+.translate {
