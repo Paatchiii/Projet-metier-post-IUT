@@ -8,7 +8,7 @@
 body {
     overflow-x: hidden;
     font-family: BodyFont,sans-serif;
-
+    text-align: center;
  }
 .MainTitle{
     font-size: 4em;
