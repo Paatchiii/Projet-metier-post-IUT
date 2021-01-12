@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    flex-wrap:wrap;
+    overflow-x: hidden;
+    margin-left:-1em;
+    margin-right:-1em;
+    margin-top:-0.25em;
+    background-color: black;
+    font-family: Roboto, sans-serif;
+    
+}
+h1{
+    flex-grow:1;
+    text-align:center;
+    background-image: url("../content/dut-informatique.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    width: 100%;
+    padding-top: 300px;
+    padding-bottom: 420px;
+    color:white;
+    font-size: 4em;
+    text-shadow: black 4px 2px 3px;
+}
+div.part{
+    flex-grow:1;
+    width: 25%;
+    text-align:center;
+    padding-top:23em;
+    padding-bottom: 23em;
+    margin:0;
+    color: black;
+}
+.part1{
+    background-image: url("../content/informatique2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.part2{
+    background-image: url("../content/metier.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.part3{
+    background-image: url("../content/entreprise.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.part4{
+    background-image: url("../content/source.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+div.slidemajor{
+    width: 70%;
+    transition: width 1s;
+
+}
+div.slideminus{
+
+    width:10%;
+    transition: width 1s;
+
+}
+div.slidemajor div{
+    display: block !important;
+}
+body div.part div{
+    display: None;
+}
+div.part div p{
+    color: white;
+    font-size: 1.75em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    text-shadow: black 4px 2px 3px;
+}
+
+}
+h2{
+    font-size:2.25em;
+}
+.lienpage{
+    text-decoration:none;
+}
+div.part1 .lienpage, div.part1 div p{
+    color :white;
+    text-shadow: black 4px 2px 3px;
+}
+div.part2 .lienpage,div.part4 .lienpage{
+    color :white;
+    text-shadow: black 5px 1px;
+}
+div.part3 .lienpage, div.part3 div p{
+    color :white;
+    text-shadow: black 3px 2px;
+}

@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    overflow-x: hidden;
+    font-family: Roboto, sans-serif;
+}
+header{
+    text-align:center;
+}
+section{
+    display: flex;
+    flex-wrap:wrap;
+
+    
+}
+header{
+    flex-grow:1;
+    text-align:center;
+    background-image: url("../content/entreprise.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color:white;
+}
+header h1{
+    font-size:3.2em;
+    text-shadow: black 4px 2px 3px;
+}
+header h2{
+    font-size:2.2em;
+    text-shadow: black 4px 2px 3px;
+}
+div.part{
+    flex-grow:1;
+    width: 23%;
+    text-align:center;
+    padding:1em;
+    margin:0;
+    transition: padding 1s;
+}
+section.menu h2,section.menu p{
+    color:white;
+    text-shadow: black 4px 2px 3px;
+}
+section.menu div.part div p{
+    display: None;
+}
+div.cursorOn p{
+    display: block !important;
+    font-size:1.75em;
+}
+.part1{
+    background-image: url("../content/ACCEUIL.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+.part2{
+    background-image: url("../content/informatique2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    
+}
+.part3{
+    background-image: url("../content/metier.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.part4{
+    background-image: url("../content/source.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.cursorOn{
+    padding-bottom: 15em;
+    transition: padding 1s;
+}
+article{
+    padding: 2em;
+}
+.partie1texte, .partie2texte{
+    width: 90%;
+    padding: 2em;
+}
+.Image1{
+    width: 30%;
+    float:right;
+    margin-left:1em;
+    margin-top:8em;
+}
+.Image2{
+    width: 60%;
+    float:right;
+    margin-right: -35em;
+
+}
