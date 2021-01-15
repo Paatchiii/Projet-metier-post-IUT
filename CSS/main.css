@@ -55,20 +55,17 @@ div.part{
     background-image: url("../content/source.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
 }
-
-
 div.slidemajor{
     width: 70%;
     transition: width 1s;
-
+}
+div.part{
+    transition: width 1s;  
 }
 div.slideminus{
-
     width:10%;
     transition: width 1s;
-
 }
 div.slidemajor div{
     display: block !important;
