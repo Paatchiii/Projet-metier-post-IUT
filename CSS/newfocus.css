@@ -98,3 +98,8 @@ article{
     margin-right: -35em;
 
 }
+footer{
+    background-color: lightgrey;
+    padding: 1em;
+    border-top: solid;
+}

@@ -99,3 +99,8 @@ article{
     float:left;
     width: 20%;
 }
+footer{
+    background-color: lightgrey;
+    padding: 1em;
+    border-top: solid;
+}

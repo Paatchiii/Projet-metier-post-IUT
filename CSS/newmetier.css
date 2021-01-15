@@ -103,3 +103,8 @@ article.contenu div.partie1def{
     padding:2em;
 
 }
+footer{
+    background-color: lightgrey;
+    padding: 1em;
+    border-top: solid;
+}

@@ -95,3 +95,8 @@ article.content div{
     margin-left: 1em;
 
 }
+footer{
+    background-color: lightgrey;
+    padding: 1em;
+    border-top: solid;
+}
