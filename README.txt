@@ -1,5 +1,1 @@
-Notre groupe est constitué de:
-Joshua GUYOT(Chef de Projet), Quentin HAMEAU, Enzo RODRIGUES et Enes YILDIZ.
-Notre groupe est le E / 4.
-
-Ce site a été créé à 100% à la main. Aucune partie de son code ne provient d'un autre site web.
+Site contenant des informations sur les matiers post-IUT, ce site est un travail de groupe dans le cadre d'un projet universitaire.
